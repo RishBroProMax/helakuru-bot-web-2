@@ -31,11 +31,11 @@ export default function Home() {
 
     root.classList.add(theme);
   }, [theme]);
-  
+
   return (
-    <div className="min-h-screen w-full bg-gradient-to-br from-[#a8e6cf] via-[#dcedc1] to-[#ffd3b6] dark:from-gray-900 dark:via-gray-800 dark:to-gray-700">
+    <div className="min-h-screen w-full pb-20 bg-gradient-to-br from-[#a8e6cf] via-[#dcedc1] to-[#ffd3b6] dark:from-gray-900 dark:via-gray-800 dark:to-gray-700">
       {/* Header */}
-      <header className="container flex items-center justify-between px-4 pt-6">
+      <header className="container flex items-center justify-between px-4 pt-6 mx-auto">
         <div className="flex items-center space-x-2 text-xl font-bold">
           <span className="text-2xl">&lt;/&gt;</span>
           <span>RISH STUDIO</span>
@@ -66,10 +66,10 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <main className="container mx-auto flex min-h-[calc(100vh-80px)] flex-col items-center justify-center px-4 md:flex-row">
-        <div className="flex flex-1 flex-col justify-center">
+      <main className="container mx-auto flex min-h-[calc(100vh-80px)] flex-col-reverse items-center justify-center px-4 md:flex-row">
+        <div className="flex flex-1 flex-col justify-center mt-10 md:mt-0">
           <div className="max-w-[600px] space-y-8">
-            <h1 className="text-4xl font-bold leading-tight tracking-tighter md:text-5xl lg:text-6xl">
+            <h1 className="font-bold leading-tight tracking-tighter text-5xl lg:text-6xl xl:text-8xl">
               Helakuru
               <br />
               News Bot{" "}
@@ -99,12 +99,12 @@ export default function Home() {
         </div>
 
         {/* Placeholder Image */}
-        <div className="mt-8 md:mt-0">
+        <div className="mt-8 md:mt-0 w-4/5 md:w-auto">
           <Image
             src={HelakuruLogo}
             alt="Helakuru News Bot"
-            width={400}
-            height={400}
+            width={500}
+            height={500}
             className="rounded-lg"
           />
         </div>
