@@ -14,7 +14,7 @@ export default function About() {
             <div className="space-y-4 text-lg">
               <p>
                 The{" "}
-                <span className="font-semibold">Helakuru News Bot V1.2</span> is
+                <span className="font-semibold">Helakuru News Bot V1.4</span> is
                 your ultimate source for real-time news updates and information
                 in Sinhala. Developed by{" "}
                 <span className="font-semibold">Rish Studio</span>, this bot
