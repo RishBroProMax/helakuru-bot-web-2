@@ -35,7 +35,7 @@ export default function About() {
             <div className="mb-6 flex items-center space-x-2">
               <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-700">
                 <Image
-                  src="/placeholder.svg"
+                  src="./public/Helakuru_logo.png"
                   alt="Bot Avatar"
                   width={32}
                   height={32}
@@ -70,9 +70,9 @@ export default function About() {
             <div className="space-y-4">
               <div>
                 <h3 className="mb-2 text-gray-400">About Me</h3>
-                <p>Helakuru News Bot</p>
+                <p>Helakuru News Bot V1.4</p>
                 <p className="text-sm text-gray-400">
-                  This Bot Send Sri Lankan News to Discord
+                  Stay up-to-date with the latest news from Helakuru Esana directly on your Discord server! This bot automatically fetches and shares real-time news updates, complete with images, summaries, and links to full articles. <br>Perfect for keeping your community informed and engaged with important updates.
                 </p>
               </div>
 
