@@ -25,7 +25,7 @@ export default function Hero() {
               size="lg"
               className="rounded-full bg-white text-black hover:bg-white/90 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700"
             >
-              <Link href="#">Invite to Server</Link>
+              <Link href="https://discord.com/oauth2/authorize?client_id=1306259513090769027&permissions=277025392704&integration_type=0&scope=bot">Invite to Server</Link>
             </Button>
             <Button
               asChild
