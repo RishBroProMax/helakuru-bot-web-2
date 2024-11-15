@@ -35,7 +35,7 @@ export default function About() {
             <div className="mb-6 flex items-center space-x-2">
               <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-700">
                 <Image
-                  src="@/public/Helakuru_logo.png"
+                  src="/logo.jpg"
                   alt="Bot Avatar"
                   width={32}
                   height={32}
