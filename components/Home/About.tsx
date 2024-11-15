@@ -72,7 +72,7 @@ export default function About() {
                 <h3 className="mb-2 text-gray-400">About Me</h3>
                 <p>Helakuru News Bot V1.4</p>
                 <p className="text-sm text-gray-400">
-                  Stay up-to-date with the latest news from Helakuru Esana directly on your Discord server! This bot automatically fetches and shares real-time news updates, complete with images, summaries, and links to full articles. <br>Perfect for keeping your community informed and engaged with important updates.
+                  Stay up-to-date with the latest news from Helakuru Esana directly on your Discord server! This bot automatically fetches and shares real-time news updates, complete with images, summaries, and links to full articles. Perfect for keeping your community informed and engaged with important updates.
                 </p>
               </div>
 
