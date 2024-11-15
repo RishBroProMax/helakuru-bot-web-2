@@ -33,7 +33,7 @@ export default function Hero() {
               size="lg"
               className="rounded-full bg-white/30 backdrop-blur-sm hover:bg-white/40 dark:bg-gray-700/30 dark:hover:bg-gray-700/40"
             >
-              <Link href="#">More Info</Link>
+              <Link href="https://github.com/RishBroProMax/Helakuru-News-Bot">Source Code</Link>
             </Button>
           </div>
         </div>
