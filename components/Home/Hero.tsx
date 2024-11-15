@@ -7,7 +7,7 @@ import HelakuruLogo from "@/public/Helakuru_logo.png";
 
 export default function Hero() {
   return (
-    <main className="container mx-auto flex min-h-[calc(100vh-80px)] flex-col-reverse items-center justify-center px-4 md:flex-row">
+    <main className="container mx-auto flex min-h-[calc(100vh-80px)] flex-col-reverse items-center justify-center px-4 md:px-28 md:flex-row">
       <div className="flex flex-1 flex-col justify-center mt-10 md:mt-0">
         <div className="max-w-[600px] space-y-8">
           <h1 className="font-bold leading-tight tracking-tighter text-5xl lg:text-6xl xl:text-8xl">
