@@ -15,7 +15,7 @@ export default function Hero() {
             <br />
             News Bot{" "}
             <span className="relative">
-              V1.2
+              V1.4 Alpha
               <div className="absolute bottom-0 h-1 w-full bg-black dark:bg-white" />
             </span>
           </h1>
